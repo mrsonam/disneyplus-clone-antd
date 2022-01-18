@@ -1,0 +1,95 @@
+.background {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://cnbl-cdn.bamgrid.com/assets/31967f5b41d0ebccb196ef40ed02fca2756899e17df5ee5c7f4489cef63f18a9/original');
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content {
+    max-width: 740px;
+    width: 50%;
+}
+
+.svg,
+.companies {
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+}
+
+.btn {
+    max-width: 700px;
+    width: 100%;
+    height: 68px;
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+.streamText {
+    font-size: 10px;
+}
+
+.signupText {
+    font-size: 20px;
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .background {
+        background-position: 50%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url('https://cnbl-cdn.bamgrid.com/assets/a8e299f335b8760059b1a881304f241dfe0fbad142a9fa851d23ff88fa8102ee/original');
+    }
+    .content {
+        width: 100%;
+        max-width: 640px;
+    }
+    .svg {
+        max-width: 500px;
+    }
+    .btn {
+        width: 100%;
+        max-width: 640px;
+    }
+    .companies {
+        max-width: 600px;
+    }
+    .signupText {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .background {
+        height: 90vh;
+    }
+    .content {
+        box-sizing: border-box;
+        width: 100%;
+        max-width: 540px;
+        margin: 40vw 5vw 20vw;
+    }
+    .svg {
+        max-width: 440px;
+        margin-bottom: 3vw;
+    }
+    .btn {
+        width: 100%;
+        max-width: 540px;
+        height: 50px;
+        font-size: 15px;
+    }
+    .companies {
+        max-width: 600px;
+        margin-bottom: 3vw;
+    }
+    .signupText {
+        font-size: 16px;
+    }
+}
