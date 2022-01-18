@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/disneyplus-clone-antd/static/css/main.9e25b088.css",
+    "main.js": "/disneyplus-clone-antd/static/js/main.7e46f38f.js",
+    "static/js/787.60656f71.chunk.js": "/disneyplus-clone-antd/static/js/787.60656f71.chunk.js",
+    "index.html": "/disneyplus-clone-antd/index.html",
+    "main.9e25b088.css.map": "/disneyplus-clone-antd/static/css/main.9e25b088.css.map",
+    "main.7e46f38f.js.map": "/disneyplus-clone-antd/static/js/main.7e46f38f.js.map",
+    "787.60656f71.chunk.js.map": "/disneyplus-clone-antd/static/js/787.60656f71.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e25b088.css",
+    "static/js/main.7e46f38f.js"
+  ]
+}
