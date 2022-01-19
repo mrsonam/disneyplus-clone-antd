@@ -1,0 +1,49 @@
+footer {
+    box-sizing: border-box;
+    padding: 26px 8px;
+    text-align: center;
+}
+footer .logo {
+    width: 80px;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.links {
+    max-width: 1024px;
+    margin: 4px auto 15px;
+    word-wrap: break-word;
+}
+.select {
+    background-color: #040714;
+    color: #c0c0c0;
+    font-size: 12px;
+}
+.ant-select-open {
+    color: #000;
+}
+.ant-select-arrow {
+    color: #c0c0c0;
+}
+.links a {
+    font-size: 12px;
+    padding: 12px;
+    display: inline-block;
+}
+.copyright {
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 768px),
+    only screen and (min-width: 769px) and (max-width: 1024px) {
+    footer {
+        padding: 5vw;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .links {
+        font-size: 12px;
+        line-height: 22px;
+    }
+}

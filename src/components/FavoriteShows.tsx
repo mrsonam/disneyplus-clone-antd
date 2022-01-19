@@ -1,12 +1,12 @@
 import { Col, Row, Typography, Image } from 'antd';
 import './css/FavoriteShows.css';
 
-const { Title, Text } = Typography;
+const { Text } = Typography;
 
 const FavoriteShows = () => {
     return (
         <div className="favoriteShows">
-            <Text className='title'>Disney+ has your favorite stories</Text><br/>
+            <Text className='title' strong>Disney+ has your favorite stories</Text><br/>
             <Text className='description'>
                 An unprecedented collection of the world's most beloved movies
                 and TV series streaming now on Disney+

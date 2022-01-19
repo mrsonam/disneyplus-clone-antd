@@ -1,18 +1,23 @@
-.favoriteShows{
+.devices {
+    position: relative;
     box-sizing: border-box;
     padding: 5.6vw;
     text-align: center;
 }
-
-.title{
+.title {
     font-size: 40px;
     margin-bottom: 24px;
 }
-
-.description{
-    font-size: 20px;
-    margin-bottom: 24px;
+.deviceImage{
+    width: 100%;
+}
+.deviceTitle{
+    font-size: 28px;
+}
+.deviceList{
     color: #c0c0c0;
+    list-style: none;
+    font-size: 18px;
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -20,24 +25,23 @@
         font-size: 28px;
         margin-bottom: 16px;
     }
-    
-    .description{
-        font-size: 18px;
-        margin-bottom: 16px;
+    .deviceTitle{
+        font-size: 24px;
     }
+    .deviceList{
+        font-size: 16px;
+    }
+   
 }
 
 @media (max-width: 768px) {
     .title{
         font-size: 26px;
     }
-    
-    .description{
-        font-size: 16px;
+    .deviceTitle{
+        font-size: 22px;
     }
-
-    .last{
-        margin-right: auto;
-        margin-left: auto;
+    .deviceList{
+        font-size: 15px;
     }
 }
